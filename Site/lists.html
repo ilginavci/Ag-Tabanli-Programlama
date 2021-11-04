@@ -1,0 +1,94 @@
+<html>
+<head>
+
+    <title>AWebPage</title>
+    <style>
+        body {
+            /* background-image: url("download.jpg");
+            background-repeat: no-repeat; */
+            background-color: #eeeeee;
+/* opacity: 0.5; */
+        background-image:  linear-gradient(#444cf7 2px, transparent 2px), linear-gradient(90deg, rgb(15, 78, 129) 2px, transparent 2px), linear-gradient(rgb(15, 78, 129) 1px, transparent 1px), linear-gradient(90deg, rgb(15, 78, 129) 1px, #eeeeee 1px);
+
+        background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+        background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+            margin:0px;
+        }
+        #MainDiv{
+            width: 100%;
+            height: 100%;
+        }
+        p{
+            font-size: 16pt;
+        }
+        .MenuItem{
+            color: white;
+            font-size: 100%;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .MenuItem a:hover {
+            margin-top: -20x;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-size: 150%;
+            text-decoration: underline white;
+        }
+        #LeftMenu a:hover .MenuItem a:not(:hover){
+            color: firebrick;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div id="MainDiv">
+        <div id="UpMenu" style="width: 100%; height: 6%; background-color: rgb(15, 78, 129); position: fixed; float: left;">
+                <!-- Menu -->
+                <div id="LeftMenu">
+                    <table align="center" cellspacing="20px"> 
+                       <tr>
+                        <td class="MenuItem"><a href="#">Anasayfa</a></td>
+                        <td class="MenuItem"><a href="#">Hakkımda</a></td>
+                        <td class="MenuItem"><a href="#">Projelerim</a></td>
+                        <td class="MenuItem"><a href="#">Araştırmalarım</a></td>
+                       </tr>
+                    </table>
+                </div>
+        </div>
+        <div id="DownMenu" style="width: 100%; height: 6%; background-color: rgb(116, 238, 59); float: left; margin-top: 3%;"> </div>
+        <div id="ContentDiv" style="width: 60%; height: auto; background-color: rgba(255, 255, 255, .9); float:left; margin-left: 20%; margin-top: 2%; border-radius: 50px; padding: 2.5%;"">
+            <h1 style="color: rgb(207, 39, 39); text-align: center; font-size: 32pt;"><b><a href="https://www.google.com/" target="_blank" style="color:red;">Lorem İpsum</a></b></h1><hr style="color: red; border-width: 2px; border-color: red; ">
+            <ol type="I" start="-1">
+                <li>Kimya
+                    <ol type="a">
+                        <li>Organik</li>
+                        <li>İnorganik</li>
+                        <li>Periyodik Tablo</li>
+                    </ol>
+                </li>
+                <li>Matematik</li>
+                <li>Fizik</li>
+            </ol>
+            <ul type="circle">
+                <li>Deniz
+                    <ul type="square">
+                        <li>Somon</li>
+                        <li>Hamsi</li>
+                        <li>Trabzon</li>
+                    </ul>
+                </li>
+                <li>Kum</li>
+                <li>Plaj</li>
+            </ul>
+            
+            <hr style="color: red; border-width: 2px; border-color: red;">
+        </div>
+        <div id="Footer" style="width: 100%; height:25%; float: left; background-color: rgb(15, 78, 129); margin-top: 2%;"></div>
+    </div>  
+</body>
+
+
+</html>
