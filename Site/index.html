@@ -1,17 +1,17 @@
 <html>
 <head>
-
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>AWebPage</title>
     <style>
         body {
             /* background-image: url("download.jpg");
             background-repeat: no-repeat; */
             background-color: #eeeeee;
-/* opacity: 0.5; */
-        background-image:  linear-gradient(#444cf7 2px, transparent 2px), linear-gradient(90deg, rgb(15, 78, 129) 2px, transparent 2px), linear-gradient(rgb(15, 78, 129) 1px, transparent 1px), linear-gradient(90deg, rgb(15, 78, 129) 1px, #eeeeee 1px);
-
-        background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-        background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+            /* opacity: 0.5; */
+            background-image:  linear-gradient(#ff0000 2px, transparent 2px), linear-gradient(90deg, rgb(145, 255, 0) 2px, transparent 2px), linear-gradient(rgb(15, 78, 129) 1px, transparent 1px), linear-gradient(90deg, rgb(15, 78, 129) 1px, #eeeeee 1px);
+            
+            background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+            background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
             margin:0px;
         }
         #MainDiv{
@@ -39,8 +39,8 @@
         #LeftMenu a:hover .MenuItem a:not(:hover){
             color: firebrick;
         }
-
-    </style>
+        
+        </style>
 </head>
 <body>
    
@@ -59,7 +59,9 @@
                 </div>
         </div>
         <div id="DownMenu" style="width: 100%; height: 6%; background-color: rgb(116, 238, 59); float: left; margin-top: 3%;"> </div>
-        <div id="ContentDiv" style="width: 60%; height: auto; background-color: rgba(255, 255, 255, .9); float:left; margin-left: 20%; margin-top: 2%; border-radius: 50px; padding: 2.5%;"">
+        <div id="ContentDiv" style="width: 60%; height: auto; background-color: rgba(115, 255, 0, 0.9); float:left; margin-left: 20%; margin-top: 2%; border-radius: 50px; padding: 2.5%;"">
+            <p id="p1"></p>
+            <button onclick="document.write('Merhaba javascript')">buraya tıkla</button>
             <h1 style="color: rgb(207, 39, 39); text-align: center; font-size: 32pt;"><b><a href="https://www.google.com/" target="_blank" style="color:red;">Lorem İpsum</a></b></h1><hr style="color: red; border-width: 2px; border-color: red; ">
             <p style="text-align: left;">&emsp;Lorem ipsum dolor sit ame t, consectetur adipiscing elit. Maecenas tincidunt hendrerit lectus. Duis ut vulputate lorem, ac blandit magna. Nam nec scelerisque ante, at placerat velit. Nam a gravida tortor. Cras ac est at nulla placerat maximus. Aenean posuere eget est a condimentum. Sed molestie neque nulla, eu gravida augue posuere gravida. Donec consequat, nulla eu porttitor hendrerit, ex est tempor arcu, ut fermentum nunc purus id erat. Nunc id neque felis. Nulla neque tortor, scelerisque eu dapibus a, consectetur vel tellus. Sed hendrerit arcu non ultrices suscipit.</p>
             <p style="text-align: left;">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt hendrerit lectus. Duis ut vulputate lorem, ac blandit magna. Nam nec scelerisque ante, at placerat velit. Nam a gravida tortor. Cras ac est at nulla placerat maximus. Aenean posuere eget est a condimentum. Sed molestie neque nulla, eu gravida augue posuere gravida. Donec consequat, nulla eu porttitor hendrerit, ex est tempor arcu, ut fermentum nunc purus id erat. Nunc id neque felis. Nulla neque tortor, scelerisque eu dapibus a, consectetur vel tellus. Sed hendrerit arcu non ultrices suscipit.</p>
@@ -71,6 +73,10 @@
         <div id="Footer" style="width: 100%; height:25%; float: left; background-color: rgb(15, 78, 129); margin-top: 2%;"></div>
     </div>  
 </body>
+        <script language="javascript">
+            // alert("Helal kanki başardın!!!");
+            // document.getElementById("p1").innerHTML= "Hello js";
+        </script>
 
 
 </html>
